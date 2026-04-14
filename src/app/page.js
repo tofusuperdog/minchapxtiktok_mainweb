@@ -116,6 +116,8 @@ export default function Home() {
 
       <MagicEffect />
 
+      <h1 className="sr-only">minChap - ดูซีรีส์และหนังแนวตั้งบน TikTok</h1>
+
       <div className="relative z-10 flex flex-col items-center gap-1 w-full max-w-sm md:max-w-[500px] px-6">
 
         {/* Minchap Logo Area */}

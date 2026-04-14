@@ -7,14 +7,14 @@ export const metadata = {
 
 export default function TermsOfService() {
   return (
-    <main className="min-h-screen w-full bg-gradient-to-b from-[#11154D] to-[#291337] text-gray-200 font-sans p-6 md:p-12 selection:bg-[#6a90f1] selection:text-white relative overflow-x-hidden">
+    <main className="min-h-screen w-full bg-gradient-to-b from-[#11154D] to-[#291337] text-gray-200 font-sans px-4 py-8 md:p-12 selection:bg-[#6a90f1] selection:text-white relative overflow-x-hidden">
       
       {/* Background glow behind center content */}
       <div className="fixed inset-0 flex items-center justify-center opacity-30 pointer-events-none z-0">
         <div className="w-[800px] h-[800px] bg-[#6a90f1] rounded-full blur-[150px]"></div>
       </div>
 
-      <div className="max-w-3xl mx-auto bg-[#1a113a]/60 backdrop-blur-xl rounded-3xl p-8 md:p-12 shadow-2xl border border-white/10 relative z-10 mt-8 mb-16">
+      <div className="max-w-3xl mx-auto md:bg-[#1a113a]/60 md:backdrop-blur-xl md:rounded-3xl p-4 md:p-12 md:shadow-2xl md:border md:border-white/10 relative z-10 mt-4 md:mt-8 mb-16">
         <div className="mb-10 text-center">
           <h1 className="text-3xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#6a90f1] to-[#d67bfa]">
             Terms of Service
@@ -27,7 +27,7 @@ export default function TermsOfService() {
             These Terms of Service govern your use of the minchap application. Please read and understand them before you begin using the application.
           </p>
 
-          <section className="bg-white/5 rounded-2xl p-6 border border-white/5">
+          <section className="md:bg-white/5 md:rounded-2xl py-4 md:p-6 md:border md:border-white/5">
             <h2 className="text-xl font-semibold text-white mb-3 flex items-center gap-2">
               <span className="flex items-center justify-center w-8 h-8 rounded-full bg-[#6a90f1]/20 text-[#6a90f1] text-sm">1</span>
               Acceptance of Terms
@@ -37,7 +37,7 @@ export default function TermsOfService() {
             </p>
           </section>
 
-          <section className="bg-white/5 rounded-2xl p-6 border border-white/5">
+          <section className="md:bg-white/5 md:rounded-2xl py-4 md:p-6 md:border md:border-white/5">
             <h2 className="text-xl font-semibold text-white mb-3 flex items-center gap-2">
               <span className="flex items-center justify-center w-8 h-8 rounded-full bg-[#6a90f1]/20 text-[#6a90f1] text-sm">2</span>
               User Account and Security
@@ -48,7 +48,7 @@ export default function TermsOfService() {
             </ul>
           </section>
 
-          <section className="bg-white/5 rounded-2xl p-6 border border-white/5">
+          <section className="md:bg-white/5 md:rounded-2xl py-4 md:p-6 md:border md:border-white/5">
             <h2 className="text-xl font-semibold text-white mb-3 flex items-center gap-2">
               <span className="flex items-center justify-center w-8 h-8 rounded-full bg-[#6a90f1]/20 text-[#6a90f1] text-sm">3</span>
               Permitted Use
@@ -59,7 +59,7 @@ export default function TermsOfService() {
             </ul>
           </section>
 
-          <section className="bg-white/5 rounded-2xl p-6 border border-white/5">
+          <section className="md:bg-white/5 md:rounded-2xl py-4 md:p-6 md:border md:border-white/5">
             <h2 className="text-xl font-semibold text-white mb-3 flex items-center gap-2">
               <span className="flex items-center justify-center w-8 h-8 rounded-full bg-[#6a90f1]/20 text-[#6a90f1] text-sm">4</span>
               Account Suspension and Termination
@@ -69,7 +69,7 @@ export default function TermsOfService() {
             </p>
           </section>
 
-          <section className="bg-white/5 rounded-2xl p-6 border border-white/5">
+          <section className="md:bg-white/5 md:rounded-2xl py-4 md:p-6 md:border md:border-white/5">
             <h2 className="text-xl font-semibold text-white mb-3 flex items-center gap-2">
               <span className="flex items-center justify-center w-8 h-8 rounded-full bg-[#6a90f1]/20 text-[#6a90f1] text-sm">5</span>
               Limitation of Liability
@@ -79,7 +79,7 @@ export default function TermsOfService() {
             </p>
           </section>
 
-          <section className="bg-white/5 rounded-2xl p-6 border border-white/5">
+          <section className="md:bg-white/5 md:rounded-2xl py-4 md:p-6 md:border md:border-white/5">
             <h2 className="text-xl font-semibold text-white mb-3 flex items-center gap-2">
               <span className="flex items-center justify-center w-8 h-8 rounded-full bg-[#6a90f1]/20 text-[#6a90f1] text-sm">6</span>
               Modification of Terms
@@ -89,7 +89,7 @@ export default function TermsOfService() {
             </p>
           </section>
 
-          <section className="bg-white/5 rounded-2xl p-6 border border-white/5">
+          <section className="md:bg-white/5 md:rounded-2xl py-4 md:p-6 md:border md:border-white/5">
             <h2 className="text-xl font-semibold text-white mb-3 flex items-center gap-2">
               <span className="flex items-center justify-center w-8 h-8 rounded-full bg-[#6a90f1]/20 text-[#6a90f1] text-sm">7</span>
               Governing Law

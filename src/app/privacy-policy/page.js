@@ -7,14 +7,14 @@ export const metadata = {
 
 export default function PrivacyPolicy() {
   return (
-    <main className="min-h-screen w-full bg-gradient-to-b from-[#11154D] to-[#291337] text-gray-200 font-sans p-6 md:p-12 selection:bg-[#6a90f1] selection:text-white relative overflow-x-hidden">
+    <main className="min-h-screen w-full bg-gradient-to-b from-[#11154D] to-[#291337] text-gray-200 font-sans px-4 py-8 md:p-12 selection:bg-[#6a90f1] selection:text-white relative overflow-x-hidden">
       
       {/* Background glow behind center content */}
       <div className="fixed inset-0 flex items-center justify-center opacity-30 pointer-events-none z-0">
         <div className="w-[800px] h-[800px] bg-[#6a90f1] rounded-full blur-[150px]"></div>
       </div>
 
-      <div className="max-w-4xl mx-auto bg-[#1a113a]/60 backdrop-blur-xl rounded-3xl p-8 md:p-12 shadow-2xl border border-white/10 relative z-10 mt-8 mb-16">
+      <div className="max-w-4xl mx-auto md:bg-[#1a113a]/60 md:backdrop-blur-xl md:rounded-3xl p-4 md:p-12 md:shadow-2xl md:border md:border-white/10 relative z-10 mt-4 md:mt-8 mb-16">
         <div className="mb-10 text-center">
           <h1 className="text-3xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#6a90f1] to-[#d67bfa]">
             Privacy Policy
@@ -27,7 +27,7 @@ export default function PrivacyPolicy() {
             The minchap app respects user privacy. We are committed to securing and protecting your personal information. This Privacy Policy explains how we collect, use, and safeguard your data.
           </p>
 
-          <section className="bg-white/5 rounded-2xl p-6 border border-white/5">
+          <section className="md:bg-white/5 md:rounded-2xl py-4 md:p-6 md:border md:border-white/5">
             <h2 className="text-xl font-semibold text-white mb-3 flex items-center gap-2">
               <span className="flex items-center justify-center w-8 h-8 rounded-full bg-[#6a90f1]/20 text-[#6a90f1] text-sm">1</span>
               Collection of Personal Information
@@ -39,7 +39,7 @@ export default function PrivacyPolicy() {
             </ul>
           </section>
 
-          <section className="bg-white/5 rounded-2xl p-6 border border-white/5">
+          <section className="md:bg-white/5 md:rounded-2xl py-4 md:p-6 md:border md:border-white/5">
             <h2 className="text-xl font-semibold text-white mb-3 flex items-center gap-2">
               <span className="flex items-center justify-center w-8 h-8 rounded-full bg-[#6a90f1]/20 text-[#6a90f1] text-sm">2</span>
               Use of Personal Information
@@ -52,7 +52,7 @@ export default function PrivacyPolicy() {
             </ul>
           </section>
 
-          <section className="bg-white/5 rounded-2xl p-6 border border-white/5">
+          <section className="md:bg-white/5 md:rounded-2xl py-4 md:p-6 md:border md:border-white/5">
             <h2 className="text-xl font-semibold text-white mb-3 flex items-center gap-2">
               <span className="flex items-center justify-center w-8 h-8 rounded-full bg-[#6a90f1]/20 text-[#6a90f1] text-sm">3</span>
               Sharing of Information
@@ -65,7 +65,7 @@ export default function PrivacyPolicy() {
             </ul>
           </section>
 
-          <section className="bg-white/5 rounded-2xl p-6 border border-white/5">
+          <section className="md:bg-white/5 md:rounded-2xl py-4 md:p-6 md:border md:border-white/5">
             <h2 className="text-xl font-semibold text-white mb-3 flex items-center gap-2">
               <span className="flex items-center justify-center w-8 h-8 rounded-full bg-[#6a90f1]/20 text-[#6a90f1] text-sm">4</span>
               Data Security
@@ -75,7 +75,7 @@ export default function PrivacyPolicy() {
             </p>
           </section>
 
-          <section className="bg-white/5 rounded-2xl p-6 border border-white/5">
+          <section className="md:bg-white/5 md:rounded-2xl py-4 md:p-6 md:border md:border-white/5">
             <h2 className="text-xl font-semibold text-white mb-3 flex items-center gap-2">
               <span className="flex items-center justify-center w-8 h-8 rounded-full bg-[#6a90f1]/20 text-[#6a90f1] text-sm">5</span>
               Data Retention
@@ -85,7 +85,7 @@ export default function PrivacyPolicy() {
             </p>
           </section>
 
-          <section className="bg-white/5 rounded-2xl p-6 border border-white/5">
+          <section className="md:bg-white/5 md:rounded-2xl py-4 md:p-6 md:border md:border-white/5">
             <h2 className="text-xl font-semibold text-white mb-3 flex items-center gap-2">
               <span className="flex items-center justify-center w-8 h-8 rounded-full bg-[#6a90f1]/20 text-[#6a90f1] text-sm">6</span>
               User Rights
@@ -95,7 +95,7 @@ export default function PrivacyPolicy() {
             </p>
           </section>
 
-          <section className="bg-white/5 rounded-2xl p-6 border border-white/5">
+          <section className="md:bg-white/5 md:rounded-2xl py-4 md:p-6 md:border md:border-white/5">
             <h2 className="text-xl font-semibold text-white mb-3 flex items-center gap-2">
               <span className="flex items-center justify-center w-8 h-8 rounded-full bg-[#6a90f1]/20 text-[#6a90f1] text-sm">7</span>
               Changes to the Privacy Policy
@@ -105,7 +105,7 @@ export default function PrivacyPolicy() {
             </p>
           </section>
 
-          <section className="bg-white/5 rounded-2xl p-6 border border-white/5 shadow-[0_0_15px_rgba(106,144,241,0.15)]">
+          <section className="md:bg-white/5 md:rounded-2xl py-4 md:p-6 md:border md:border-white/5 md:shadow-[0_0_15px_rgba(106,144,241,0.15)]">
             <h2 className="text-xl font-semibold text-white mb-3 flex items-center gap-2">
               <span className="flex items-center justify-center w-8 h-8 rounded-full bg-[#6a90f1]/20 text-[#6a90f1] text-sm">8</span>
               Contact Us

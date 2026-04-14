@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useEffect, useRef } from "react";
 
 const MagicEffect = () => {
@@ -153,8 +154,19 @@ export default function Home() {
       </div>
 
       {/* Footer */}
-      <div className="absolute bottom-6 w-full text-center text-gray-400 text-xs md:text-sm font-light tracking-wide z-10 pointer-events-none">
-        Developed by Love Drama Co.,ltd
+      <div className="absolute bottom-6 w-full text-center text-xs md:text-sm font-light tracking-wide z-10 flex flex-col items-center">
+        <div className="text-gray-400 pointer-events-none mb-2">
+          Developed by Love Drama Co.,ltd
+        </div>
+        <div className="flex gap-4 items-center">
+          <Link href="/terms-of-service" className="text-gray-500 hover:text-white transition-colors duration-300 underline underline-offset-4">
+            Terms of Service
+          </Link>
+          <span className="text-gray-600">|</span>
+          <Link href="/privacy-policy" className="text-gray-500 hover:text-white transition-colors duration-300 underline underline-offset-4">
+            Privacy Policy
+          </Link>
+        </div>
       </div>
     </main>
   );
